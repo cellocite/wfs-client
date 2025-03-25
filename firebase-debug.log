@@ -1,0 +1,169 @@
+[debug] [2025-03-25T15:46:28.862Z] ----------------------------------------------------------------------
+[debug] [2025-03-25T15:46:28.867Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init --debug
+[debug] [2025-03-25T15:46:28.867Z] CLI Version:   13.15.4
+[debug] [2025-03-25T15:46:28.867Z] Platform:      darwin
+[debug] [2025-03-25T15:46:28.867Z] Node Version:  v20.11.1
+[debug] [2025-03-25T15:46:28.868Z] Time:          Tue Mar 25 2025 11:46:28 GMT-0400 (Eastern Daylight Time)
+[debug] [2025-03-25T15:46:28.868Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-25T15:46:28.904Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-25T15:46:28.905Z] > authorizing via signed-in user (cellocite@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/aiden.thanhp/Desktop/wfs-client
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[error] 
+[error] Error: Must select at least one feature. Use SPACEBAR to select features, or specify a feature by running firebase init [feature_name]
+[debug] [2025-03-25T15:46:41.260Z] ----------------------------------------------------------------------
+[debug] [2025-03-25T15:46:41.266Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init --debug
+[debug] [2025-03-25T15:46:41.266Z] CLI Version:   13.15.4
+[debug] [2025-03-25T15:46:41.266Z] Platform:      darwin
+[debug] [2025-03-25T15:46:41.266Z] Node Version:  v20.11.1
+[debug] [2025-03-25T15:46:41.266Z] Time:          Tue Mar 25 2025 11:46:41 GMT-0400 (Eastern Daylight Time)
+[debug] [2025-03-25T15:46:41.267Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-25T15:46:41.303Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-25T15:46:41.304Z] > authorizing via signed-in user (cellocite@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/aiden.thanhp/Desktop/wfs-client
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-03-25T15:46:42.833Z] Using project from CLI flag: winchesterfundingsolutions
+[debug] [2025-03-25T15:46:42.835Z] > refreshing access token with scopes: []
+[debug] [2025-03-25T15:46:42.836Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-03-25T15:46:42.836Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-03-25T15:46:43.113Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-03-25T15:46:43.114Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-03-25T15:46:43.126Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/winchesterfundingsolutions [none]
+[debug] [2025-03-25T15:46:43.535Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/winchesterfundingsolutions 200
+[debug] [2025-03-25T15:46:43.536Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/winchesterfundingsolutions {"projectId":"winchesterfundingsolutions","projectNumber":"596650739594","displayName":"winchesterfundingsolutions","name":"projects/winchesterfundingsolutions","resources":{"hostingSite":"winchesterfundingsolutions"},"state":"ACTIVE","etag":"1_0a8c493a-5444-4042-a48d-3409d1c0495d"}
+[info] i  Using project winchesterfundingsolutions (winchesterfundingsolutions) 
+[info] 
+=== Hosting Setup
+[debug] [2025-03-25T15:46:43.544Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/winchesterfundingsolutions [none]
+[debug] [2025-03-25T15:46:43.931Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/winchesterfundingsolutions 200
+[debug] [2025-03-25T15:46:43.931Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/winchesterfundingsolutions {"projectId":"winchesterfundingsolutions","projectNumber":"596650739594","displayName":"winchesterfundingsolutions","name":"projects/winchesterfundingsolutions","resources":{"hostingSite":"winchesterfundingsolutions"},"state":"ACTIVE","etag":"1_0a8c493a-5444-4042-a48d-3409d1c0495d"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-03-25T15:46:58.061Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2025-03-25T15:46:58.257Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2025-03-25T15:46:58.258Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.5.0","browserURL":"https://www.gstatic.com/firebasejs/11.5.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.5.0/firebase.tgz"},"live":{"version":"11.5","browserURL":"https://www.gstatic.com/firebasejs/live/11.5/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.5/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/11.5.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.5.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.5.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.5.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.5.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.5.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.5.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.5.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.5.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.5.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.5.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.5.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.5.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.5.0/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.5.0/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.5.0/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of dist/wfs-client/browser/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] 
+[info] ✔  Firebase initialization complete! 
+[debug] [2025-03-25T15:47:13.470Z] ----------------------------------------------------------------------
+[debug] [2025-03-25T15:47:13.472Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --debug
+[debug] [2025-03-25T15:47:13.472Z] CLI Version:   13.15.4
+[debug] [2025-03-25T15:47:13.472Z] Platform:      darwin
+[debug] [2025-03-25T15:47:13.472Z] Node Version:  v20.11.1
+[debug] [2025-03-25T15:47:13.472Z] Time:          Tue Mar 25 2025 11:47:13 GMT-0400 (Eastern Daylight Time)
+[debug] [2025-03-25T15:47:13.472Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-25T15:47:13.509Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-25T15:47:13.509Z] > authorizing via signed-in user (cellocite@gmail.com)
+[debug] [2025-03-25T15:47:13.510Z] [iam] checking project winchesterfundingsolutions for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-03-25T15:47:13.511Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/winchesterfundingsolutions:testIamPermissions [none]
+[debug] [2025-03-25T15:47:13.511Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/winchesterfundingsolutions:testIamPermissions x-goog-quota-user=projects/winchesterfundingsolutions
+[debug] [2025-03-25T15:47:13.511Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/winchesterfundingsolutions:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-03-25T15:47:13.844Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/winchesterfundingsolutions:testIamPermissions 200
+[debug] [2025-03-25T15:47:13.844Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/winchesterfundingsolutions:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-03-25T15:47:13.844Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/winchesterfundingsolutions [none]
+[debug] [2025-03-25T15:47:14.065Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/winchesterfundingsolutions 200
+[debug] [2025-03-25T15:47:14.065Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/winchesterfundingsolutions {"projectId":"winchesterfundingsolutions","projectNumber":"596650739594","displayName":"winchesterfundingsolutions","name":"projects/winchesterfundingsolutions","resources":{"hostingSite":"winchesterfundingsolutions"},"state":"ACTIVE","etag":"1_0a8c493a-5444-4042-a48d-3409d1c0495d"}
+[info] 
+[info] === Deploying to 'winchesterfundingsolutions'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2025-03-25T15:47:14.072Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/winchesterfundingsolutions/versions [none]
+[debug] [2025-03-25T15:47:14.072Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/winchesterfundingsolutions/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2025-03-25T15:47:15.206Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/winchesterfundingsolutions/versions 200
+[debug] [2025-03-25T15:47:15.206Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/winchesterfundingsolutions/versions {"name":"projects/596650739594/sites/winchesterfundingsolutions/versions/bc2665f87c64cc9f","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[winchesterfundingsolutions]: beginning deploy... 
+[info] i  hosting[winchesterfundingsolutions]: found 20 files in dist/wfs-client/browser 
+[debug] [2025-03-25T15:47:15.221Z] [hosting] uploading with 200 concurrency
+[debug] [2025-03-25T15:47:15.224Z] [hosting] hash cache [ZGlzdC93ZnMtY2xpZW50L2Jyb3dzZXI] stored for 20 files
+[debug] [2025-03-25T15:47:15.225Z] [hosting][hash queue][FINAL] {"max":1,"min":0,"avg":0,"active":0,"complete":20,"success":20,"errored":0,"retried":0,"total":20,"elapsed":3}
+[debug] [2025-03-25T15:47:15.225Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/596650739594/sites/winchesterfundingsolutions/versions/bc2665f87c64cc9f:populateFiles [none]
+[debug] [2025-03-25T15:47:15.225Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/596650739594/sites/winchesterfundingsolutions/versions/bc2665f87c64cc9f:populateFiles {"files":{"/styles-7HWBPWYG.css":"3a271b51af5fe22a563943987f3bb5a529884f9911278f82cd0e56df1d56e294","/polyfills-FFHMD2TL.js":"02522c25699ab93e99a93914c3fc1158c874090dc123472be90c6746e6cf2d13","/meter-icon.png":"caa51b01b777f554d7ae81394e736a0d716010d300242bea56226dde6b862be0","/main-5YUIOJLF.js":"bb0ac68642778a3d2b232c85b73fb8201dcd14dde8cdf2970ebf4c2a458e8646","/lp-apply.webp":"714b4c9c3e755d81cc13b4530ae18c33228cdb54aba0c55220b01ff31c0ddee8","/lp-about.webp":"20f6db968dd01f3404578b7fa4119f2d36089bcf264d95edf6d1aaf6676fa84b","/logo-white.webp":"90e45c993cbdd1bc4674487931d8dd7cdabeefcadd127a16eae457d036e39272","/logo-w-text.webp":"b49e178d0e83966ecaafdc7ae7ec73700cbff4e539e844f380e35be5eace788e","/logo-square.webp":"44c5bf36b5d9e733eec0a8f0d79a13a6e7e4207e7abd40be8ffac9b0cc6e80e7","/index.html":"5372441935575a63afaa389e01e187ed3f2fb4e51bafce9acd593b25898b6106","/ic4.png":"9801ed1147332d59723c60c2981d56c22c68918a48e66200afd015ba5a3cceba","/ic3.png":"99f18bc7bfa2cf8ad228a2bb2cb59c362900bc89a2a6752ef9fb85c9843f44a3","/ic2.png":"cbe1c6b3cdc289c5e8f5a713b5e86498836647c366e5526c022f5f630a9eedb8","/ic1.png":"b2859b5a2c92ccacd8672950fc8d90ad114808688daec42627c6df855b65ed5d","/home-banner.webp":"26a19b081bbe58521540a5784bfef06a013967b39f842bacab4a813ee8928821","/favicon.ico":"deb99a03f3a9d992b6008ef65b102ae1c3bec44c906c7c99fec1c7a4275317b4","/cta.webp":"0697bad4439647d8fb3c3210200b76ea9763c882ce206ea59cff2973e3ccc6ff","/chart-icon.png":"588fac6403e9d533268ef87847cb87ec84c8945c19709349e697758364d37647","/calendar-icon.png":"8d2d9131eb5fd5a85436cd2abda4cc5d51a7fea49a539a59bff8cf82804e6cdd","/media/cta-ZSCVWXDH.webp":"0697bad4439647d8fb3c3210200b76ea9763c882ce206ea59cff2973e3ccc6ff"}}
+[debug] [2025-03-25T15:47:15.820Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/596650739594/sites/winchesterfundingsolutions/versions/bc2665f87c64cc9f:populateFiles 200
+[debug] [2025-03-25T15:47:15.820Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/596650739594/sites/winchesterfundingsolutions/versions/bc2665f87c64cc9f:populateFiles {"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/winchesterfundingsolutions/versions/bc2665f87c64cc9f/files"}
+[debug] [2025-03-25T15:47:15.820Z] [hosting][populate queue][FINAL] {"max":596,"min":596,"avg":596,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":596}
+[debug] [2025-03-25T15:47:15.820Z] [hosting] uploads queued: 0
+[debug] [2025-03-25T15:47:15.820Z] [hosting][upload queue][FINAL] {"max":0,"min":9999999999,"avg":0,"active":0,"complete":0,"success":0,"errored":0,"retried":0,"total":0,"elapsed":1742917635820}
+[info] i  hosting: upload complete 
+[info] ✔  hosting[winchesterfundingsolutions]: file upload complete 
+[debug] [2025-03-25T15:47:15.821Z] [hosting] deploy completed after 613ms
+[debug] [2025-03-25T15:47:15.821Z] [
+  {
+    "config": {
+      "public": "dist/wfs-client/browser",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "winchesterfundingsolutions"
+    },
+    "version": "projects/596650739594/sites/winchesterfundingsolutions/versions/bc2665f87c64cc9f"
+  }
+]
+[info] i  hosting[winchesterfundingsolutions]: finalizing version... 
+[debug] [2025-03-25T15:47:15.823Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/winchesterfundingsolutions/versions/bc2665f87c64cc9f updateMask=status%2Cconfig
+[debug] [2025-03-25T15:47:15.823Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/winchesterfundingsolutions/versions/bc2665f87c64cc9f {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2025-03-25T15:47:16.665Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/winchesterfundingsolutions/versions/bc2665f87c64cc9f 200
+[debug] [2025-03-25T15:47:16.665Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/winchesterfundingsolutions/versions/bc2665f87c64cc9f {"name":"projects/596650739594/sites/winchesterfundingsolutions/versions/bc2665f87c64cc9f","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2025-03-25T15:47:14.661992Z","createUser":{"email":"cellocite@gmail.com"},"finalizeTime":"2025-03-25T15:47:16.616549Z","finalizeUser":{"email":"cellocite@gmail.com"}}
+[debug] [2025-03-25T15:47:16.665Z] [hosting] finalized version for winchesterfundingsolutions:[object Object]
+[info] ✔  hosting[winchesterfundingsolutions]: version finalized 
+[info] i  hosting[winchesterfundingsolutions]: releasing new version... 
+[debug] [2025-03-25T15:47:16.666Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/winchesterfundingsolutions/channels/live/releases versionName=projects%2F596650739594%2Fsites%2Fwinchesterfundingsolutions%2Fversions%2Fbc2665f87c64cc9f
+[debug] [2025-03-25T15:47:16.666Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/winchesterfundingsolutions/channels/live/releases {}
+[debug] [2025-03-25T15:47:17.450Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/winchesterfundingsolutions/channels/live/releases 200
+[debug] [2025-03-25T15:47:17.450Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/winchesterfundingsolutions/channels/live/releases {"name":"projects/596650739594/sites/winchesterfundingsolutions/channels/live/releases/1742917636700000","version":{"name":"projects/596650739594/sites/winchesterfundingsolutions/versions/bc2665f87c64cc9f","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2025-03-25T15:47:14.661992Z","createUser":{"email":"cellocite@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocKOhMeQxUyAG8DkjHdcmiAlPZT1Nii_wDaFMBbuY80V9H-KGQ=mo"},"finalizeTime":"2025-03-25T15:47:16.616549Z","finalizeUser":{"email":"cellocite@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocKOhMeQxUyAG8DkjHdcmiAlPZT1Nii_wDaFMBbuY80V9H-KGQ=mo"}},"type":"DEPLOY","releaseTime":"2025-03-25T15:47:16.700Z","releaseUser":{"email":"cellocite@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocKOhMeQxUyAG8DkjHdcmiAlPZT1Nii_wDaFMBbuY80V9H-KGQ=mo"}}
+[debug] [2025-03-25T15:47:17.451Z] [hosting] release: {"name":"projects/596650739594/sites/winchesterfundingsolutions/channels/live/releases/1742917636700000","version":{"name":"projects/596650739594/sites/winchesterfundingsolutions/versions/bc2665f87c64cc9f","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2025-03-25T15:47:14.661992Z","createUser":{"email":"cellocite@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocKOhMeQxUyAG8DkjHdcmiAlPZT1Nii_wDaFMBbuY80V9H-KGQ=mo"},"finalizeTime":"2025-03-25T15:47:16.616549Z","finalizeUser":{"email":"cellocite@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocKOhMeQxUyAG8DkjHdcmiAlPZT1Nii_wDaFMBbuY80V9H-KGQ=mo"}},"type":"DEPLOY","releaseTime":"2025-03-25T15:47:16.700Z","releaseUser":{"email":"cellocite@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocKOhMeQxUyAG8DkjHdcmiAlPZT1Nii_wDaFMBbuY80V9H-KGQ=mo"}}
+[info] ✔  hosting[winchesterfundingsolutions]: release complete 
+[info] 
+[info] ✔  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/winchesterfundingsolutions/overview
+[info] Hosting URL: https://winchesterfundingsolutions.web.app
