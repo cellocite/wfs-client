@@ -1,0 +1,17 @@
+<div class="pad py-5">
+    <h1 class="fw-bold title">With Winchester Funding Solutions, you don't need perfect credit to get an offer.</h1>
+    <h3>See how much you can qualify or and get an instant pre-approval.</h3>
+
+    <a class="row mx-0 g-3 mt-4">
+        <a *ngFor="let loan of setup.all_loan_types" [href]="'/business-loans/' + loan.card_link" class="col-12 col-sm-6 col-md-3">
+            <div class="loan-card">
+                <h4>{{ loan.card_title }}</h4>
+                <p class="mt-2 mb-4">{{ loan.card_description }}</p>
+                <p class="btn btn-primary fw-bold">Get Started</p>
+            </div>
+        </a>
+    </a>
+</div>
+
+<app-estimate></app-estimate>
+<app-cta></app-cta>

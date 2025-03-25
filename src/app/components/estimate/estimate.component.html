@@ -1,0 +1,42 @@
+<div class="bg-secondary-subtle py-5">
+    <div class="pad">
+        <h1 class="text-center fw-semibold">Estimate Your Loan Amount</h1>
+        <div class="est-card row mx-0 g-0 mt-5">
+            <div class="est-card-info col-12 col-lg-3">
+                <h3 class="fw-bold">Let's Make It Easy For You</h3>
+                <p class="my-4">Apply now to see how much your business may qualify in seconds</p>
+                <h3 class="fw-bold">All you need to qualify is:</h3>
+                <ul class="fw-bold mt-4">
+                    <li class="li-cir">6 months in business</li>
+                    <li class="li-cir">$10K+ in monthly sales</li>
+                    <li class="li-cir">500 credit score</li>
+                </ul>
+                <a class="btn btn-secondary mt-4 fw-bold" href="/apply-now">Get Started</a>
+            </div>
+            <div class="est-card-func col-12 col-lg-9">
+                <div class="est">
+                    <h2 class="fw-bold text-center">Estimate Your Loan Amount</h2>
+                    <p class="mt-3 mb-4 text-center">Use this slider to indicate your monthly sales volume</p>
+                    <p class="amount-display fs-4 fw-bold color-primary text-center">{{ amount | currency }}</p>
+                    <input
+                        #slider
+                        type="range"
+                        [min]="minAmount"
+                        [max]="maxAmount"
+                        [step]="1000"
+                        [(ngModel)]="amount"
+                        (input)="updateTrackWidth()"
+                        [style.background]="trackStyle"
+                        class="mt-3 mb-4"
+                    />
+                    <h4 class="fw-semibold text-center">How much could I qualify for?</h4>
+                    <h3 class="fw-bold text-center color-secondary">{{ this.loanAmount | currency }}</h3>
+                    <p class="text-center mt-3">Results shown are for illustration purposes only. Applications are subject to approval.</p>
+                    <div class="d-flex justify-content-center mt-1">
+                        <a class="btn btn-secondary mt-4 fw-bold" href="/apply-now">Secure An Instant Pre-Approval</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

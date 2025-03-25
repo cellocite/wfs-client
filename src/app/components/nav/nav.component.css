@@ -1,0 +1,28 @@
+.nav-link {
+    color: inherit;
+    padding: 0;
+    margin: 0;
+    transition: all ease-in-out .25s;
+}
+
+.nav-link:hover {
+    color: var(--accent-400);
+}
+
+.navs {
+    position: sticky;
+    top: 0;
+    z-index: 90;
+}
+
+.navs-mobile {
+    position: fixed; 
+    width: 100%;
+    transform: translateY(-100%);
+    z-index: 89;
+    transition: all ease-in-out .25s;
+}
+
+.navs-mobile.open {
+    transform: translateY(0);
+}

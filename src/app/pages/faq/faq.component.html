@@ -1,0 +1,22 @@
+<div class="pad py-5">
+    <h1 class="fw-bold title">Frequently Asked Questions</h1>
+    <h3>If you’re new to Winchester Funding Solutions or exploring funding options for your business, this guide will help you learn more about our services and how we can support your growth.</h3>
+
+    <div *ngFor="let section of faqs" class="mt-5">
+        <h4 class="fw-bold title color-secondary">{{ section.title }}</h4>
+        <div class="bg-secondary ln-x my-3"></div>
+        <div class="row mx-0 g-0">
+            <div class="col-12 col-md-6 pe-2 mt-3" *ngFor="let faq of section.faq">
+                <p class="fw-bold">{{ faq.q }}</p>
+                <p class="mt-2">{{ faq.a }}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-secondary ln-x mt-5 mb-3"></div>
+    <h4 class="text-center color-primary fw-bold mt-4">Ready to take the next steps?</h4>
+    <p class="text-center">Start your 15-second application for an instant pre-approval.</p>
+    <div class="d-flex justify-content-center mt-3">
+        <a href="/apply-now" class="btn btn-secondary fw-bold">Apply Now</a>
+    </div>
+</div>

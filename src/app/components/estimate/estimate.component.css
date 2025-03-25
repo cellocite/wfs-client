@@ -1,0 +1,95 @@
+.est-card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.est-card-info {
+    background-color: var(--primary-500);
+    color: white;
+    padding: 2.5rem;
+    height: 100%;
+}
+
+.li-cir {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+.est-card-func {
+    background-color: var(--primary-300);
+    padding: .5rem;
+}
+
+.est {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 3rem;
+}
+
+/* Hide default input styles */
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 20px;
+    background: transparent; /* Keep it transparent since we'll apply the background dynamically */
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+/* The track */
+input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+/* The thumb (circle button) */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: var(--primary-400);
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Firefox support for track */
+input[type="range"]::-moz-range-track {
+    height: 20px;
+    border-radius: 20px;
+}
+
+/* Firefox support for thumb */
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: var(--primary-400);
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    z-index: 11;
+}
+
+.running-track {
+    background-color: var(--secondary-300);
+    width: 100%;
+    position: absolute;
+    height: 20px;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    z-index: 10;
+}
+
+.slider-container {
+    position: relative;
+}
